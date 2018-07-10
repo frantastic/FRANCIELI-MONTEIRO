@@ -1,0 +1,125 @@
+/*Normalizando*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:rgba(0,0,0,.05); 
+}
+
+/*First-header*/
+
+/*Define Cabeçalho*/
+div.First-header ul li{
+	list-style-type: none;
+	margin-top: 0px;
+	height: 150px;
+	width: 1350px;
+	overflow: auto;
+	background-color: #008B8B; 
+}
+
+/*Ver definição de Float*/
+div.First-header ul {
+	float: center;
+}
+
+/*Imagem do Cabeçalho*/
+div.First-header ul li div img {
+	height:50px;
+	width: 50px;
+}
+
+/*Definição principal dos elementos do cabeçalho*/
+div.First-header ul li input {
+	display: block;
+	color: grey;
+	text-align: left;
+	text-decoration: none;
+	margin: 0px;
+	max-height: 20px;
+}
+
+/*Buscar*/
+div.First-header ul li input {
+  float:left;
+  background-color:white;
+  margin-left: 30px;
+  padding-left:  5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:200px;
+}
+
+/*main*/
+div.main {
+	border-style: solid;
+	border-width: thin;
+	width: 790px;
+	margin-left: 300px;
+	margin-top: 0px;
+}
+
+div.top_img img {
+	float: left;
+}
+
+div.profile_picture img {
+	margin-top: 150px;
+	z-index: 0;
+	border-color: white;
+	border-style: solid;
+}
+
+div.personal_data {
+	border-bottom-style: solid;
+	border-width: thin;
+	width: 770px;
+	margin-left: 10px;
+	padding: 10px 0 10px 0;
+}
+
+div.cover_letter {
+	width: 770px;
+	margin-left: 10px;
+	padding: 10px 0 10px 0;
+}
+
+div.experience {
+	border-style: solid;
+	border-width: thin;
+	width: 770px;
+	margin-left: 300px;
+	padding: 10px;
+} 
+
+td, th {
+	padding: 0px 5px;
+}
+
+table {
+	padding: 10px 0px;
+}
+
+body > div.Site.body > div.experience > table > tbody > tr:nth-child(1) > td > table {
+border-bottom-style: solid;
+border-bottom-color: black;
+border-bottom-width: thin;
+width: 750px;
+}
+
+body > div.Site.body > div.experience > table > tbody > tr:nth-child(2) > td > table {
+border-bottom-style: solid;
+border-bottom-color: black;
+border-bottom-width: thin;
+width: 750px;	
+}
+
+body > div.Site.body > div.experience > table > tbody > tr:nth-child(3) > td > table {
+border-bottom-style: solid;
+border-bottom-color: black;
+border-bottom-width: thin;
+width: 750px;	
+}
